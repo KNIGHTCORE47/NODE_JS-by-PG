@@ -1,0 +1,43 @@
+REST API - JSON
+
+GET /users - List all users
+
+GET /users/1 - Get the user with ID 01
+GET /users/2 - Get the user with ID 02
+
+
+POST /users - Create new user
+
+
+PATCH /users/1 - Edit the data of user with ID 01
+
+
+DELETE /users/1 - Delete the user with ID 01
+
+
+
+
+
+
+//For Hybrid server - support browser, mobile, amazon echo etc...
+
+GET /api/users - List all users => HTML document render
+GET /users - List all users
+
+GET /api/users/1 - Get the user with ID 01  => limitation
+GET /api/users/2 - Get the user with ID 02
+
+//Dynamic Path Parameter
+GET /api/users/:id
+
+here - :id => variable | dynamic
+
+
+
+POST /api/users - Create new user
+
+
+PATCH /api/users/1 - Edit the data of user with ID 01
+
+
+DELETE /api/users/1 - Delete the user with ID 01

@@ -1,0 +1,69 @@
+// Version
+
+^4.19.2
+
+1st Part -> 4
+2nd Part -> 19
+3rd Part -> 2
+
+
+
+//3rd Part (LAST PART) -> 2 [MINOR FIXES (Optional)]
+Example - ^4.19.2
+Example - ^4.19.4
+Example - ^4.19.5
+Example - ^4.19.8
+
+
+
+
+//2nd Part (MIDDLE PART) -> 19 [RECOMMENDED BUG FIX (Security Fix)]
+Example - ^4.19.8
+Example - ^4.20.2
+Example - ^4.20.8
+Example - ^4.21.0
+
+
+
+
+//1st Part (FIRST PART) -> 19 [MEJOR RELEASE / BREAKING UPDATE]
+Example - ^4.21.0
+Example - ^5.0.1
+
+
+
+//Install any version...
+METHOD -> npm i express@4.17.2
+METHOD -> npm i express@4.17.6
+METHOD -> npm i express@4.18.2
+
+
+
+//Install alwayyss latest version...
+METHOD -> npm i express@latest
+METHOD -> npm i vite@latest
+
+
+
+//Symboles -
+
+^4.19.2
+
+^ - "Compatible with version" Install all RECOMMENDED and MINOR Fixes automatically
+Example - ^4.19.8 ✔️
+Example - ^4.20.2 ✔️
+Example - ^4.20.8 ✔️
+// ^ - Locked over version 4
+Example - 5.0.1 ❌
+
+
+
+
+~4.19.2
+
+~ - "Approximately equivalent to version" Install all MINOR Fixes automatically
+Example - ~4.19.2 ✔️
+Example - ~4.19.6 ✔️
+Example - ~4.19.8 ✔️
+// ~ - Locked over RECOMMENDED Fixes
+Example - ~4.20.0 ❌

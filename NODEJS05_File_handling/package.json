@@ -1,0 +1,11 @@
+{
+  "name": "nodejs05_file_handling",
+  "version": "1.0.0",
+  "main": "file.js",
+  "scripts": {
+    "dev": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

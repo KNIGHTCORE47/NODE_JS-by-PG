@@ -1,0 +1,7 @@
+01. Blocking Code - Synchronous Code
+- limited thread (default - 4)
+- every blocking code assign a single thread 
+-  the server would block while reading the file, and the client would have to wait for the server to finish before receiving a response
+
+02. Non-Blocking Code - Asynchronous Code
+- assign in a side stack

@@ -1,0 +1,11 @@
+{
+  "name": "nodejs04_modules",
+  "version": "1.0.0",
+  "description": "about node js modules",
+  "main": "test.js",
+  "scripts": {
+    "dev": "node test.js"
+  },
+  "author": "knightcore47",
+  "license": "ISC"
+}

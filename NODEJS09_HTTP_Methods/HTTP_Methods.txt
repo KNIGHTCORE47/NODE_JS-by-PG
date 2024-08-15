@@ -1,0 +1,20 @@
+01. HTTP GET -
+- Browser can access only one HTTP method that is GET
+- From browser to server to GET the data
+- expect return of a data from server
+
+
+02. HTTP POST -
+- From browser to server to POST the data
+- mutate the state of data inside server
+
+03. HTTP PUT - 
+- From browser to server to upload File Types(txt, jpeg, mp3, pdf ...) uses PUT
+
+
+04. HTTP PATCH - 
+- From browser to server to update the File Value uses PATCH
+
+
+05. HTTP DELETE -
+- From browser to server to unlink the user/image/pdf/etc. uses DELETE 
