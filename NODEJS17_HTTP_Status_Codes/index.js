@@ -39,7 +39,7 @@ app.route("/api/users/:id")
 
         if (!userParams) return res.status(404).json({ error: "Invalid user" })
 
-        return res.status(200).send(userParams)
+        return res.status(200).json(userParams)
 
     })
     .patch((req, res) => {

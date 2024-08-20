@@ -1,0 +1,5 @@
+//Mongoose Working Method
+
+01. Schema - Define the structure
+            schema - Model
+            usng this model we do CRUD operations
