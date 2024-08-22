@@ -1,0 +1,14 @@
+//Explain - Stateful authentication
+
+01.
+I(client) have car(payload = signup/login), go to parking lot(get request) -> meet mentainence guy(server) -> give car for parking -> mentainence guy create one ticket(session uid) -> give me the ticket(cookies) -> copy the ticket as my car number plate for himself to match.
+
+02.
+my work done -> go to parking lot -> give mentainence guy the ticket -> he matched the ticket with his -> if mathed give me back my car
+
+
+
+//Restriction - 
+01. if the state lost for some reason all users will be logged out, to access the site they have to login again and again.
+
+02. stateful authentication is a very memory intensive work and server has a limited amount of memory
