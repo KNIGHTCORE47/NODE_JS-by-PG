@@ -1,0 +1,14 @@
+//Explain - Stateless authentication
+
+01.
+I(client) have car(payload = signup/login), go to parking lot(get request) -> meet mentainence guy(server) -> give car for parking -> mentainence guy create one ticket(jwt token) -> he put my car details in that token(state inside payload) -> he puts his stamp on it(jwt secret saved in server) -> give me the ticket(cookies[Browser] / headers[mobile/amazon echo/google home etc...]).
+
+02.
+my work done -> go to parking lot -> give mentainence guy the ticket -> he matched the ticket stamp and details -> if mathed give me back my car
+
+
+
+//Usage - 
+01. Serverless architecture,
+02. Product base sectors,
+03. Subscription based sectors etc...

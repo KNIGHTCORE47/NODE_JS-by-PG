@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100dvh;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.73);
+            color: antiquewhite;
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1dvw;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.5dvw;
+        }
+
+        label {
+            text-transform: capitalize;
+        }
+
+        .btnContainer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 0.5dvw;
+        }
+
+        button {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="/signup" method="post">
+            <label for="">username</label>
+            <input type="text" name="username" id="" required>
+            <label for="">email</label>
+            <input type="email" name="email" id="" required>
+            <label for="">password</label>
+            <input type="password" name="password" id="" required>
+            <div class="btnContainer">
+                <button type="submit">Signup</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
