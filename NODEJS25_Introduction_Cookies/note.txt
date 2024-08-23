@@ -1,0 +1,21 @@
+//Cookie Authentication Process - BTS
+
+01. User -> [browser] -> username,email,password(payload) -> {login} -> [server] -> create jwt tokens -> user info + secret key -> {JWT Token} -> {Cockies} -> [browser] -> saved in browser
+
+02. IF >> User -> [browser] -> {Cockies} -> [server] -> server check token -> matched -> HOME page
+
+03. ELSE >> User -> [browser] -> {Cockies} -> [server] -> server check token -> invalid -> LOGIN page
+
+
+
+//Set Cockies methods -
+
+01. Specify Domains
+02. Specify Expiry
+etc..
+
+
+
+//Benefits -
+01. Domains - example gmail login enables auto logins to youtube, chrome etc.. sub Domains.
+02. Expiry - long expiries helps user to login for longer period of multiple time without logged in.
