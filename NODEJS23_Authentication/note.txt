@@ -12,3 +12,7 @@ my work done -> go to parking lot -> give mentainence guy the ticket -> he match
 01. if the state lost for some reason all users will be logged out, to access the site they have to login again and again.
 
 02. stateful authentication is a very memory intensive work and server has a limited amount of memory
+
+
+//Usage - 
+01. Banking sector.
