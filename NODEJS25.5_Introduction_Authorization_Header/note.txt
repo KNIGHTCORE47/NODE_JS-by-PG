@@ -1,8 +1,0 @@
-//Autorization Header Authentication Process - BTS
-
-01. User -> [browser] -> username,email,password(payload) -> {login} -> [server] -> create jwt tokens -> user info + secret key -> {JWT Token} -> {json response} -> [browser] -> {browser header = Autorization: JWT token} saved in browser header 
-
-02. IF >> User -> [browser] -> {Autorization Header} -> [server] -> server check token -> matched -> HOME page
-
-03. ELSE >> User -> [browser] -> {Autorization Header} -> [server] -> server check token -> undefined -> LOGIN page
-
