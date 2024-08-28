@@ -12,9 +12,30 @@
 
 
 <body>
-    <div class="bg-dark text-white">
+    <div class="">
         <%- include("./partials/navbarComponent.partials.ejs") %>
+    </div>
 
+    <div class="container mt-3">
+        <div class="row row-cols-4">
+            <% blogs.forEach(element=> { %>
+
+                <div class="col">
+                    <div class="card col" style="width: 18rem;">
+                        <img src="<%= element.coverImageUrl %>" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= element.title %>
+                            </h5>
+
+                            <a href="/blog/<%= element._id %>" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+
+                    <% }) %>
+                </div>
+
+        </div>
     </div>
 
 

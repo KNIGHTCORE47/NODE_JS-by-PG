@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <%- include("./partials/styleComponent.partials.ejs") %>
+
+</head>
+
+
+<body>
+    <div class="">
+        <%- include("./partials/navbarComponent.partials.ejs") %>
+    </div>
+
+    <div class="container mt-3">
+        <form action="/api/blogs" method="post" enctype="multipart/form-data">
+
+            <div class="mb-3">
+                <label for="coverImage" class="form-label">Cover Image</label>
+                <input type="file" name="coverImage" class="form-control" id="coverImage"
+                    aria-describedby="coverImageHelp" />
+            </div>
+
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" name="title" class="form-control" id="title" aria-describedby="titleHelp" />
+            </div>
+
+            <div class="mb-3">
+                <label for="body" class="form-label">Body</label>
+                <textarea class="form-control" name="body" id="body" style="height: 100px">
+                </textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+
+
+    <%- include("./partials/scriptComponent.partials.ejs") %>
+
+</body>
+
+</html>

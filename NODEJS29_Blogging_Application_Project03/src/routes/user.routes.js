@@ -1,5 +1,9 @@
 import express from 'express'
-import { handleUserSignup, handleUserSignin } from '../controllers/user.controllers.js'
+import {
+    handleUserSignup,
+    handleUserSignin,
+    handleUserLogout
+} from '../controllers/user.controllers.js'
 
 const router = express.Router();
 
@@ -14,5 +18,7 @@ router.get("/signin", (req, res) => {
 router.post("/signup", handleUserSignup)
 
 router.post("/signin", handleUserSignin)
+
+router.get("/logout", handleUserLogout)
 
 export default router
