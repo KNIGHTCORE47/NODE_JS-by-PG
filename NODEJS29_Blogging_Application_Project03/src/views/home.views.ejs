@@ -12,7 +12,7 @@
 
 
 <body>
-    <div class="">
+    <div>
         <%- include("./partials/navbarComponent.partials.ejs") %>
     </div>
 
@@ -28,13 +28,12 @@
                                 <%= element.title %>
                             </h5>
 
-                            <a href="/blog/<%= element._id %>" class="btn btn-primary">View</a>
+                            <a href="/api/blogs/<%= element._id %>" class="btn btn-primary">View</a>
                         </div>
                     </div>
-
-                    <% }) %>
                 </div>
 
+                <% }) %>
         </div>
     </div>
 
